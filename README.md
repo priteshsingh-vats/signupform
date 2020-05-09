@@ -6,5 +6,5 @@ It is a basic Signup form using Flask basically I have made  python file with th
 - Flask-Mail: pip install Flask-Mail
 - Flask SQLAlchemy
 - Install XAMPP as well as Configure your database Accordingly.
-- To start the webapp use the command:python formwithoutdbc.py
+- To start the webapp use the command:python formwithdbc.py
 
