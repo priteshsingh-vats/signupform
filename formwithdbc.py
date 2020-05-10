@@ -24,7 +24,7 @@ class contacts(db.Model):
     email = db.Column(db.String(120), nullable=False)
     phone_no = db.Column(db.String(20),nullable=False )
     password = db.Column(db.String(180),nullable=False)
-@app.route("/signup",methods=['GET','POST'])
+@app.route("/",methods=['GET','POST'])
 def contact1():
     if(request.method=="POST"):
         name=request.form.get("name")
